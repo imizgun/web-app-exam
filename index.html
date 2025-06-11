@@ -2,12 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="stylesheet" href="/src/style.scss" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <section id="header">
+      <header>
+        <div class="header">
+          <div class="logo">
+            <div class="yellow-dot">
+            </div>
+            <div class="main-logo">
+              onet
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="bell">
+              <img src="/public/bell.svg" alt="bell-button"/>
+            </div>
+            <div class="mail">
+              <img src="/public/mail.svg" alt="mail-button"/>
+            </div>
+
+            <div class="profile">
+              <img src="/profile.svg" alt="profile-button"/>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section id="nav-buttons">
+      <div class="nav-buttons">
+        <div class="nav-button">
+          WIADOMOŚCI
+        </div>
+        <div class="nav-button">
+          SPORT
+        </div>
+        <div class="nav-button premium">
+          PREMIUM
+        </div>
+        <span class="expand-button">
+          ...
+        </span>
+      </div>
+    </section>
+
+  <section id="news-line">
+    <div class="news-line">
+      <div class="news-text">
+        Coś tam się stało bardzo bardzo bardzo intersującego, że warto o tym przeczytać...
+      </div>
+    </div>
+  </section>
+
+  <section id="main-content">
+    <div class="story main">
+      <img src="/public/trump.jpg" alt="story"/>
+      <div class="story-text">
+        Donald Trump znowu coś tam powiedział...
+      </div>
+    </div>
+
+    <div class="main-news">
+      <div class="title"><h1>Wiadomości</h1></div>
+
+      <div class="story"><img src="/public/trump.jpg" alt="story"/>
+        <div class="story-text">
+          Donald Trump znowu coś tam powiedział...
+        </div>
+      </div>
+      <div class="story"><img src="/public/trump.jpg" alt="story"/>
+        <div class="story-text">
+          Donald Trump znowu coś tam powiedział...
+        </div>
+      </div>
+      <div class="story"><img src="/public/trump.jpg" alt="story"/>
+        <div class="story-text">
+          Donald Trump znowu coś tam powiedział...
+        </div>
+      </div>
+      <div class="story"><img src="/public/trump.jpg" alt="story"/>
+        <div class="story-text">
+          Donald Trump znowu coś tam powiedział...
+        </div>
+      </div>
+    </div>
+  </section>
   </body>
 </html>
